@@ -2,13 +2,13 @@
 
 # Check for correct usage
 if [ "$#" -ne 1 ]; then
-    echo "usage: $0 <filename>"
+    echo "usage: wordCount.sh <filename>"
     exit 1
 fi
 
 # Check if file exists
 if [ ! -f "$1" ]; then
-    echo "$0: $1: Not a file"
+    echo "wordCount.sh: $1: Not a file"
     exit 1
 fi
 
