@@ -1,0 +1,5 @@
+"
+•Reading a directory means listing its contents
+•Writing a directory means removing or creating files within that directory
+•Executing a directory means interacting with its contents
+"
